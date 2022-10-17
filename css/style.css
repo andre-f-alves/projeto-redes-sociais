@@ -29,7 +29,7 @@ section#celular {
     transform: translate(-50%, -50%);
     height: 605px;
     width: 300px;
-    background: url('../imgs/frame-iphone.png') center center no-repeat;
+    background: transparent url('../imgs/frame-iphone.png') center center no-repeat;
 }
 
 iframe#tela {
