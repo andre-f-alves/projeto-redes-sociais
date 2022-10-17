@@ -37,5 +37,24 @@ iframe#tela {
     top: 78px;
     left: 23px;
     height: 453px;
-    width: 254.4px;
+    width: 254.5px;
+}
+
+section#botoes {
+    text-align: right;
+}
+
+section#botoes img {
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000069;
+    box-sizing: border-box; /* Faz com que a borda faça parte da caixa */
+}
+
+section#botoes img:hover {
+    border: 2px solid #ffffff9a;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px #0000006b;
+    transition: transform 0.2s, border 0.1s;
 }
